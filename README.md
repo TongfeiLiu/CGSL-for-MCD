@@ -1,1 +1,2 @@
-# CGSL-for-MCD (Submitted to ISPRS P&RS)
+# CGSL-for-MCD (Acceptance by ISPRS P&RS)
+Coming soon!
