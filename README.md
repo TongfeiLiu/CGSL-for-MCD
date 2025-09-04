@@ -145,7 +145,7 @@ The method outputs:
 - Evaluation metrics: **OA, Kappa, F1, AUR, AUP**  
 
 CGSL outperforms multiple SOTA methods (e.g., SR-GCAE, CACD, PRBCD-Net, BGAAE).  
-For detailed results, please check **Tables 2–3** and **Figures 4–6** in the paper.
+For detailed results, please refer to **Tables 2–3** and **Figures 4–6** in our paper.
 
 ---
 
