@@ -103,14 +103,14 @@ python main.py \
 
 | Argument       | Type  | Default  | Description |
 |----------------|-------|----------|-------------|
-| `root_dir`     | str   | `''`     | Root directory for datasets |
-| `load_data_dir`| str   | `''`     | Subdirectory of the dataset |
-| `result_folder`| str   | `''`     | Folder to save results |
-| `img_t1_name`  | str   | `''`     | Pre-event image filename |
-| `img_t2_name`  | str   | `''`     | Post-event image filename |
-| `ref_name`     | str   | `''`     | Ground truth image filename |
-| `type_a`       | str   | `''`     | Modality of first image (e.g., optical, sar) |
-| `type_b`       | str   | `''`     | Modality of second image (e.g., optical, sar) |
+| `root_dir`     | str   | `'your data path'`     | Root directory for datasets |
+| `load_data_dir`| str   | `'your data path'`     | Subdirectory of the dataset |
+| `result_folder`| str   | `'your data path'`     | Folder to save results |
+| `img_t1_name`  | str   | `'your data name'`     | Pre-event image filename |
+| `img_t2_name`  | str   | `'your data name'`     | Post-event image filename |
+| `ref_name`     | str   | `'your data name'`     | Ground truth image filename |
+| `type_a`       | str   | `'optical or sar'`     | Modality of first image (e.g., optical, sar) |
+| `type_b`       | str   | `'optical or sar'`     | Modality of second image (e.g., optical, sar) |
 | `n_seg`        | int   | `0`      | Number of superpixels for SLIC |
 | `com`          | float | `0`      | Compactness parameter for SLIC |
 | `item`         | int   | `5`      | Dataset index (for logging) |
