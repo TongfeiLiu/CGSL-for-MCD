@@ -78,7 +78,7 @@ root_dir/
 
 ### Training and Inference
 
-Run the main script with appropriate arguments:
+Run the “main.py” script with appropriate arguments:
 
 ```bash
 python main.py \
