@@ -33,7 +33,7 @@ The framework of the proposed CGSL is presented as follows:
 
 ---
 
-## 📖 Results Preview
+## 📊 Results Preview
 **Change Maps**
 ![Change maps of the proposed CGSL](https://github.com/TongfeiLiu/CGSL-for-MCD/blob/main/Figures/BCIs.png)
 
