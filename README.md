@@ -138,7 +138,7 @@ Based on the paper, here are the suggested parameters for each dataset:
 
 ---
 
-## 📈 Results
+## 📈 Results Output
 
 The method outputs:
 - **Difference Image (DI)**  
