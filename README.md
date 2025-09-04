@@ -11,15 +11,6 @@ Jianjian Xu, Tongfei Liu*, Tao Lei, Hongruixuan Chen, Naoto Yokoya, Zhiyong Lv, 
 
 ---
 
-## 📖 Abstract
-
-Multimodal change detection (MCD) has attracted a great deal of attention due to its significant advantages in processing heterogeneous remote sensing images (RSIs) from different sensors (e.g., optical and synthetic aperture radar). The major challenge of MCD is that it is difficult to acquire the changed areas by directly comparing heterogeneous RSIs. Although many MCD methods have made important progress, they are still insufficient in capturing the modality-independence complex structural relationships in the feature space of heterogeneous RSIs. To this end, we propose a novel commonality graph structure learning (CGSL) for unsupervised MCD, which aims to extract potential commonality graph structural features between heterogeneous RSIs and directly compare them to detect changes. In this study, heterogeneous RSIs are first segmented and constructed as superpixel-based heterogeneous graph structural data consisting of nodes and edges. Then, the heterogeneous graphs are input into the proposed CGSL to capture the commonalities of graph structural features with modality-independence. The proposed CGSL consists of a Siamese graph encoder and two graph decoders. The Siamese graph encoder maps heterogeneous graphs into a shared space and effectively extracts potential commonality in graph structural features from heterogeneous graphs. The two graph decoders reconstruct the mapped node features as original node features to maintain consistency with the original graph features. Finally, the changes between heterogeneous RSIs can be detected by measuring the differences in commonality graph structural features using the mean squared error. In addition, we design a composite loss with regularization to guide CGSL in effectively excavating the potential commonality graph structural features between heterogeneous graphs in an unsupervised learning manner. Extensive experiments on seven MCD datasets show that the proposed CGSL outperforms the existing state-of-the-art methods, demonstrating its superior performance in MCD.
-
-The framework of the proposed CGSL is presented as follows:
-![Framework of our proposed CGSL](https://github.com/TongfeiLiu/CGSL-for-MCD/blob/main/Figures/Freamwork%20of%20CGSL.png)
-
----
-
 ## 🚀 Features
 
 - ✅ Unsupervised multimodal change detection  
@@ -27,6 +18,15 @@ The framework of the proposed CGSL is presented as follows:
 - ✅ Siamese graph encoder with probabilistic latent representation  
 - ✅ Composite loss (reconstruction, KL divergence, commonality)  
 - ✅ Support for **optical, SAR, NDVI**, and other multimodal combinations  
+
+---
+
+## 📖 Abstract
+
+Multimodal change detection (MCD) has attracted a great deal of attention due to its significant advantages in processing heterogeneous remote sensing images (RSIs) from different sensors (e.g., optical and synthetic aperture radar). The major challenge of MCD is that it is difficult to acquire the changed areas by directly comparing heterogeneous RSIs. Although many MCD methods have made important progress, they are still insufficient in capturing the modality-independence complex structural relationships in the feature space of heterogeneous RSIs. To this end, we propose a novel commonality graph structure learning (CGSL) for unsupervised MCD, which aims to extract potential commonality graph structural features between heterogeneous RSIs and directly compare them to detect changes. In this study, heterogeneous RSIs are first segmented and constructed as superpixel-based heterogeneous graph structural data consisting of nodes and edges. Then, the heterogeneous graphs are input into the proposed CGSL to capture the commonalities of graph structural features with modality-independence. The proposed CGSL consists of a Siamese graph encoder and two graph decoders. The Siamese graph encoder maps heterogeneous graphs into a shared space and effectively extracts potential commonality in graph structural features from heterogeneous graphs. The two graph decoders reconstruct the mapped node features as original node features to maintain consistency with the original graph features. Finally, the changes between heterogeneous RSIs can be detected by measuring the differences in commonality graph structural features using the mean squared error. In addition, we design a composite loss with regularization to guide CGSL in effectively excavating the potential commonality graph structural features between heterogeneous graphs in an unsupervised learning manner. Extensive experiments on seven MCD datasets show that the proposed CGSL outperforms the existing state-of-the-art methods, demonstrating its superior performance in MCD.
+
+The framework of the proposed CGSL is presented as follows:
+![Framework of our proposed CGSL](https://github.com/TongfeiLiu/CGSL-for-MCD/blob/main/Figures/Freamwork%20of%20CGSL.png)
 
 ---
 
