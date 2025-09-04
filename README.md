@@ -37,6 +37,8 @@ The framework of the proposed CGSL is presented as follows:
 **Change Maps**
 ![Change maps of the proposed CGSL](https://github.com/TongfeiLiu/CGSL-for-MCD/blob/main/Figures/BCIs.png)
 
+Note: If you want to get the difference map and binary map in our paper, you can get them directly through the "Results of Our CGSL" folder.
+
 ## 📦 Installation
 
 ### Requirements
