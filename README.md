@@ -149,18 +149,6 @@ For detailed results, please refer to **Tables 2–3** and **Figures 4–6** in 
 
 ---
 
-## ❤️Acknowledgement
-We are very grateful for the outstanding contributions of the publicly available MCD datasets [1,2,3] or [4].
-
-```
-[1] https://sites.google.com/view/luppino/data.
-[2] Professor Michele Volpi's webpage at https://sites.google.com/site/michelevolpiresearch/home.
-[3] Professor Max Mignotte's webpage (http://www-labs.iro.umontreal.ca/~mignotte/).
-[4] https://github.com/yulisun.
-```
-
----
-
 ## 📜 Citation
 
 If you use this code or our paper, please cite:
@@ -186,6 +174,18 @@ If you use this code or our paper, please cite:
   pages={1219-1233},
   keywords={Feature extraction;Image reconstruction;Training;Data mining;Autoencoders;Representation learning;Image sensors;Electronic mail;Decoding;Clustering algorithms;Multimodal change detection;unsupervised change detection;heterogeneous images;representation learning;commonality feature},
   doi={10.1109/TIP.2025.3539461}}
+```
+
+---
+
+## ❤️Acknowledgement
+We are very grateful for the outstanding contributions of the publicly available MCD datasets [1,2,3] or [4].
+
+```
+[1] https://sites.google.com/view/luppino/data.
+[2] Professor Michele Volpi's webpage at https://sites.google.com/site/michelevolpiresearch/home.
+[3] Professor Max Mignotte's webpage (http://www-labs.iro.umontreal.ca/~mignotte/).
+[4] https://github.com/yulisun.
 ```
 
 ---
