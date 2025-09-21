@@ -179,7 +179,7 @@ If you use this code or our paper, please cite:
 ---
 
 ## ❤️Acknowledgement
-We are very grateful for the outstanding contributions of the publicly available MCD datasets [1,2,3] or [4].
+We are very grateful for the outstanding contributions of the publicly available MCD datasets and codes [1,2,3] and [4].
 
 ```
 [1] https://sites.google.com/view/luppino/data.
