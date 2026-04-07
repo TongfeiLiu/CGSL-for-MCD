@@ -195,7 +195,9 @@ We are very grateful for the outstanding contributions of the publicly available
 For questions or suggestions, please open an issue or contact:
 
 - Jianjian Xu: xujianjian_leo@sust.edu.cn 
-- Tongfei Liu: liutongfei_home@hotmail.com  
+- Tongfei Liu: liutongfei_home@hotmail.com
+
+**Note**: Please also copy to the two email addresses above.
 
 ---
 
